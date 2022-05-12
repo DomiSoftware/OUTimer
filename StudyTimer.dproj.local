@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/03/08 09:41:53.000.332,=D:\Domisoft\Delphi 11.0 Academic\Unit1.pas</Transaction>
+    <Transaction>2022/03/21 13:55:30.000.988,=D:\Domisoft\Delphi 11.0 Academic\Unit1.pas</Transaction>
+    <Transaction>2022/03/21 14:09:14.000.486,D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Unit1.pas=D:\Domisoft\Delphi 11.0 Academic\Unit1.pas</Transaction>
+    <Transaction>2022/03/21 14:09:14.000.486,D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Unit1.fmx=D:\Domisoft\Delphi 11.0 Academic\Unit1.fmx</Transaction>
+    <Transaction>2022/03/21 14:09:26.000.704,D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Project1.dproj=D:\Domisoft\Delphi 11.0 Academic\Project1.dproj</Transaction>
+    <Transaction>2022/03/21 20:22:37.000.566,D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Pomodoro.dproj=D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Project1.dproj</Transaction>
+    <Transaction>2022/03/22 19:24:51.000.031,D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\StudyTimer.dproj=D:\Domisoft\Delphi 11.0 Academic\2022\Pomodoro\Pomodoro.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

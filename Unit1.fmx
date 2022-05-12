@@ -1,0 +1,317 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'StudyTimer'
+  ClientHeight = 710
+  ClientWidth = 331
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object ScaledLayout1: TScaledLayout
+    Align = Top
+    OriginalWidth = 331.000000000000000000
+    OriginalHeight = 513.000000000000000000
+    Size.Width = 331.000000000000000000
+    Size.Height = 513.000000000000000000
+    Size.PlatformDefault = False
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 331.000000000000000000
+      Size.Height = 513.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Panel1: TPanel
+        Align = Top
+        Margins.Left = 2.000000000000000000
+        Margins.Top = 2.000000000000000000
+        Margins.Right = 2.000000000000000000
+        Margins.Bottom = 2.000000000000000000
+        Position.X = 2.000000000000000000
+        Position.Y = 2.000000000000000000
+        Size.Width = 327.000000000000000000
+        Size.Height = 391.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'panelstyle'
+        TabOrder = 1
+        object Panel2: TPanel
+          Align = Top
+          Position.Y = 64.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          object Button2: TButton
+            Align = Right
+            StyledSettings = [Family]
+            Margins.Right = 10.000000000000000000
+            Position.X = 217.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = '60 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button2Click
+          end
+          object Button1: TButton
+            Align = Left
+            StyledSettings = [Family]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = '90 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button1Click
+          end
+          object Button12: TButton
+            Align = Client
+            StyledSettings = [Family]
+            Size.Width = 107.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '75 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button12Click
+          end
+        end
+        object Panel4: TPanel
+          Align = Top
+          Position.Y = 113.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          object Button10: TButton
+            Align = Left
+            StyledSettings = [Family]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = '45 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button10Click
+          end
+          object Button3: TButton
+            Align = Right
+            StyledSettings = [Family]
+            Margins.Right = 10.000000000000000000
+            Position.X = 217.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '20 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button3Click
+          end
+        end
+        object Panel5: TPanel
+          Align = Top
+          Position.Y = 162.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          object Button7: TButton
+            Align = Left
+            StyledSettings = [Family]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '30 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button7Click
+          end
+          object Button11: TButton
+            Align = Right
+            StyledSettings = [Family]
+            Margins.Right = 10.000000000000000000
+            Position.X = 217.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 4
+            Text = '15 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button11Click
+          end
+        end
+        object Panel3: TPanel
+          Align = Top
+          Position.Y = 260.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object Button13: TButton
+            Align = Left
+            StyledSettings = [Family]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = '5 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button13Click
+          end
+          object Button14: TButton
+            Align = Right
+            StyledSettings = [Family]
+            Margins.Right = 10.000000000000000000
+            Position.X = 217.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '1 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button14Click
+          end
+          object Button15: TButton
+            Align = Client
+            StyledSettings = [Family]
+            Size.Width = 107.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 9
+            Text = '3 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button15Click
+          end
+        end
+        object Panel7: TPanel
+          Align = Top
+          Position.Y = 211.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 49.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          object Button6: TButton
+            Align = Left
+            StyledSettings = [Family]
+            Margins.Left = 10.000000000000000000
+            Position.X = 10.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 6
+            Text = '25 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button6Click
+          end
+          object Button8: TButton
+            Align = Right
+            StyledSettings = [Family]
+            Margins.Right = 10.000000000000000000
+            Position.X = 217.000000000000000000
+            Size.Width = 100.000000000000000000
+            Size.Height = 49.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 5
+            Text = '10 Min'
+            TextSettings.Font.Size = 24.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.WordWrap = True
+            OnClick = Button8Click
+          end
+        end
+        object Label3: TLabel
+          Align = MostTop
+          StyledSettings = [Family]
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 327.000000000000000000
+          Size.Height = 59.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 30.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claNavy
+          TextSettings.HorzAlign = Center
+          Text = 'IT'#39'S OU STUDYTIME'
+          TabOrder = 0
+        end
+        object Button5: TButton
+          Align = MostBottom
+          Enabled = False
+          StyledSettings = [Family]
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 3.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 340.000000000000000000
+          Size.Width = 307.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = '- SELECT LENGTH -'
+          TextSettings.Font.Size = 30.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claRed
+          OnClick = Button5Click
+        end
+      end
+      object Label2: TLabel
+        Align = Bottom
+        StyledSettings = [Family, FontColor]
+        Margins.Bottom = 5.000000000000000000
+        Position.Y = 392.000000000000000000
+        Size.Width = 331.000000000000000000
+        Size.Height = 116.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 36.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.HorzAlign = Center
+        TabOrder = 0
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    Left = 16
+    Top = 432
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 97
+    Top = 429
+  end
+  object NotificationCenter1: TNotificationCenter
+    Left = 249
+    Top = 437
+  end
+end
